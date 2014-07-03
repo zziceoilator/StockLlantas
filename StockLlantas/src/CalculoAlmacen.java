@@ -16,9 +16,9 @@ public class CalculoAlmacen {
 	
 	public int calcularTotalAlmacen1(){
 		int total=0;
-		for(int i=0;i<llantasAlmacen2.length;i++)
+		for(int i=0;i<llantasAlmacen1.length;i++)
 		{
-			total=llantasAlmacen2[i].numeroLlantas+total;
+			total=llantasAlmacen1[i].numeroLlantas+total;
 		}
 		return total;
 	}
@@ -37,7 +37,7 @@ public class CalculoAlmacen {
 	}
 	
 	public void anyadirLlantaAlmacen2(int posicion){
-		llantasAlmacen1[posicion].addLlanta();
+		llantasAlmacen2[posicion].addLlanta();
 	}
 	
 }
